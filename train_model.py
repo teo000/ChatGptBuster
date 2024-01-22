@@ -83,7 +83,7 @@ history = model.fit(x_train,
                     validation_data=(x_val, y_val),
                     verbose=1)
 
-# model.save("chatgpt_buster_model")
+model.save("chatgpt_buster_model")
 
 predictions = model.predict(test_examples)
 print(predictions)
